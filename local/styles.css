@@ -162,3 +162,7 @@ footer {
         max-width: 15rem!important;
     }
 }
+
+#companionMethods {
+    font-family: monaco, Consolas, Lucida Console, monospace;
+}
