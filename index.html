@@ -197,13 +197,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <p style="color: white;" id="companionMethods"></p>
+            </div>
             <div class="col-lg-6 text-right">
                 <img style="width: 15rem;" src="/images/pc3.svg">
             </div>
         </div>
 
     </div>
+
+
 
     <div id="contato" class="container mb-5">
         <h2 style="margin-top: 4rem; margin-bottom: 3rem;" class="text-center mb-5">Contato</h2>
@@ -226,7 +230,7 @@
 
     <footer class="navbar-color">
         <div style="margin-top: 2rem;" class="row text-center justify-content-center">
-            <a class="btn btn-floating" href="#inicio"><img style="max-width: 4rem; margin-top: 1rem;" src="../images/icon.png"></a>
+            <a class="btn btn-floating" href="#inicio"><img style="max-width: 4rem; margin-top: 1rem;" src="/images/icon.png"></a>
         </div>
     </footer>
 
@@ -234,6 +238,79 @@
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+    <script>
+        new TypeIt("#companionMethods", {
+                speed: 50,
+                waitUntilVisible: true,
+                loop: true
+
+            })
+            .type("var bruno = newPerson();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("while (bruno.Alive) {", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("bruno.WakeUp();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("bruno.Eat();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("bruno.Design();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("bruno.Code();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("bruno.DrinkSomeBeer();", {
+                delay: 500
+            })
+            .break({
+                delay: 300
+            })
+            .delete(23)
+            .type(":P", {
+                delay: 500
+            })
+            .delete(2)
+            .type("bruno.CodeMore();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("bruno.Sleeps();", {
+                delay: 300
+            })
+            .break({
+                delay: 300
+            })
+            .type("}", {
+                delay: 300
+            })
+            .go();
+    </script>
 
     <script>
         console.clear()
