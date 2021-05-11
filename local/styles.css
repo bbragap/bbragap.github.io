@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: Oswald;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: #000;
+}
+
+.navbar-color {
+    background: #222222;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+    background-color: #cccccc69;
+    border-radius: 2px;
+}
+
+.margin-top-bottom {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/next.svg")
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/previous.svg")
+}
+
+h1 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h3 {
+    font-weight: 200;
+    color: #ffffff;
+}
+
+h6 {
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.main-card {
+    margin-top: 5rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.graduation-card li {
+    color: #fff;
+}
+
+.work-card {
+    background: #ffffff;
+    background-image: url(../images/pc2black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10rem;
+    width: 100%;
+}
+
+#canvas {
+    width: 100%;
+}
+
+.carousel-item {
+    filter: grayscale(1);
+    transition: all .2s ease-in-out;
+}
+
+.carousel-item:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+::placeholder {
+    color: #000;
+    font-weight: bold;
+    opacity: 1;
+}
+
+footer {
+    height: 6rem;
+}
+
+.footer-link {
+    margin-top: 2rem;
+}
+
+.btn-floating:hover {
+    transition: 0.2s;
+}
+
+.btn-floating:hover {
+    background-color: #222222;
+}
+
+#profile-pic {
+    max-width: 25rem!important;
+}
+
+@media only screen and (max-width: 600px) {
+    #profile-pic {
+        max-width: 15rem!important;
+    }
+}
