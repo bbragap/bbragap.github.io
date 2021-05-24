@@ -197,27 +197,28 @@
                         <p>Trello</p>
                     </div>
                 </div>
-                 <div class="overlay">
+                <div class="overlay">
                     <div class="text">Prototipagem com <strong>Figma</strong> e <strong>Adobe Illustrator</strong>, modelagem de banco de dados <strong>SQL</strong> e gerênciamento de projetos com <strong>Trello</strong> </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-6">
+
+    </div>
+
+    <div class="container">
+        <div class="row col-lg-12 text-center">
+            <div class="col-lg-6 text-left">
                 <p style="color: white;" id="companionMethods"></p>
             </div>
             <div class="col-lg-6 text-right">
                 <img style="width: 15rem;" src="/images/pc3.svg">
             </div>
         </div>
-
     </div>
-
-
 
     <div id="contato" class="container mb-5">
         <h2 style="margin-top: 4rem; margin-bottom: 3rem;" class="text-center mb-5">Contato</h2>
-        <div class="row text-center col-lg-12">
+        <div class="row text-center col-lg-12 contact-icons">
             <div class="col-lg-3 text-center">
                 <a class="btn btn-floating" href="https://mail.google.com/mail/?view=cm&fs=1&to=bbragap@gmail.com" target="_blank"><i class="fab fa-google" style="width: 2rem; height: 2rem; color: #fff;"></i></a>
             </div>
@@ -231,7 +232,19 @@
                 <a class="btn btn-floating" href="https://wa.me/5594981791516" target="_blank"><i class="fab fa-whatsapp" style="width: 2rem; height: 2rem; color: #fff;"></i></a>
             </div>
         </div>
-        <img style="max-width: 15rem;" src="/images/mobile.svg">
+        <div class="row text-center col-lg-12">
+
+        </div>
+
+    </div>
+
+    <div class="row col-lg-12 container-fluid" style="margin-top: 20%;">
+        <div class="col-lg-6">
+            <img style="max-width: 10rem;" src="/images/mobile.svg">
+        </div>
+        <div class="col-lg-6">
+
+        </div>
     </div>
 
     <footer class="navbar-color">
@@ -626,6 +639,24 @@
             css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
             document.body.appendChild(css);
         };
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+    <script>
+        VANTA.TRUNK({
+            el: "#contato",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 550.00,
+            minWidth: 150.00,
+            scale: 1.00,
+            scaleMobile: 0.50,
+            color: 0xffffff,
+            backgroundColor: 0x0,
+        })
     </script>
 
 </body>
